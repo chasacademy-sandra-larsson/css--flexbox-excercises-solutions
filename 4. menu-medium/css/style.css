@@ -1,0 +1,39 @@
+body {
+    font-family: 'Gill Sans', sans-serif;
+    background: #eee;
+
+}
+
+
+nav {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin: 20px;
+ 
+}
+
+nav img {
+    margin-right: auto;
+    width: 5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #999;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: #222;
+}
+
+nav .login {
+    border: 2px solid #eee;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: auto;
+}
